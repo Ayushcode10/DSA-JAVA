@@ -1,0 +1,23 @@
+How to approach :--
+
+
+For eg:
+            cols-->
+     r       *
+     o       * *
+     w       * * *
+     s       * * * *
+
+no. of cols = 4
+no. of rows = 4
+
+(1) Run the outer loop for the no. of time you're having the lines.
+    In the eg. no. of lines = no. of rows = no. of times the outer loop will run
+
+(2) Identify, for every row no.,
+    ->how many cols are there
+    ->types of elements in the cols
+
+(3) What do you need to print?!
+
+**imp -- Try to find the formula relating rows and cols
