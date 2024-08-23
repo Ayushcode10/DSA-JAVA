@@ -20,6 +20,7 @@ This repository documents my journey of learning Data Structures and Algorithms 
     - [Pattern Questions](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Patterns)
     - [Strings](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Strings)
     - [Extra questions](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/javvaQues)
+    - [Object-Oriented Programming](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/OOPS)
 
 
 ### Progress Tracker
