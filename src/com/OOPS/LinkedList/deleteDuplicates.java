@@ -1,4 +1,4 @@
-package com.LinkedList;
+package com.OOPS.LinkedList;
 
 public class deleteDuplicates {
     //given a sorted linked list, delete all the duplicate elements

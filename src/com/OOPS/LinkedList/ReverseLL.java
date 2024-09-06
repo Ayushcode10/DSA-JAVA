@@ -1,4 +1,4 @@
-package com.LinkedList;
+package com.OOPS.LinkedList;
 
 public class ReverseLL {
     private class Node{
