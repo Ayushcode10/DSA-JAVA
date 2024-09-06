@@ -1,4 +1,4 @@
-package com.OOPS.LinkedList;
+package com.LinkedList;
 
 public class Circular {
 
