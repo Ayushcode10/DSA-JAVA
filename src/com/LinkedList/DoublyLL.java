@@ -1,6 +1,4 @@
-package com.OOPS.LinkedList;
-
-import com.OOPS.AccessControls.A;
+package com.LinkedList;
 
 public class DoublyLL {
 

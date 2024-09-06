@@ -1,10 +1,4 @@
-package com.OOPS.LinkedList;
-
-import com.sun.security.jgss.GSSUtil;
-
-import javax.sound.sampled.Line;
-import java.security.Signature;
-import java.util.Stack;
+package com.LinkedList;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,4 @@
-package com.OOPS.LinkedList;
-
-import java.lang.reflect.AnnotatedElement;
-import java.util.spi.AbstractResourceBundleProvider;
+package com.LinkedList;
 
 public class LL {
 

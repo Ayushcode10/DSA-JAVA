@@ -21,20 +21,22 @@ This repository documents my journey of learning Data Structures and Algorithms 
     - [Strings](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Strings)
     - [Extra questions](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/javvaQues)
     - [Object-Oriented Programming](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/OOPS)
+    - [Linked List](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/OOPLinkedList)
 
 
 ### Progress Tracker
 
 - **TODO:** 
         --Recursion
-        --Linked lists
 - **In Progress:** 
         --OOPS
+        --Linked List Questions
 - **Completed:** 
         --Arrays
         --searching algos
         --sorting algos
         --patterns 
+        --Linked list 
 
 ### How to Use This Repository
 
