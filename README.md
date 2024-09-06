@@ -21,7 +21,7 @@ This repository documents my journey of learning Data Structures and Algorithms 
     - [Strings](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Strings)
     - [Extra questions](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/javvaQues)
     - [Object-Oriented Programming](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/OOPS)
-    - [Linked List](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/OOPLinkedList)
+    - [Linked List](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/LinkedList)
 
 
 ### Progress Tracker
