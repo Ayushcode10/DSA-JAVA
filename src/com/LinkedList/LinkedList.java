@@ -101,6 +101,48 @@ public class LinkedList {
         size++;
     }
 
+
+    //to remove the nth element from the last
+    public int removeNthFromEnd(int n){
+        //create a new dummyNode which points to head and connects to the list
+        //so that the left pointer starts from one step behind
+        Node dummyNode = new Node(0);
+        dummyNode.next = head;
+        //left starts from dummy
+        Node left = dummyNode;
+        //right starts from head
+        Node right = head;
+
+        if(right == null){
+            return -1;
+        }
+        /*
+            positioning right pointer to the nth node from the start
+        */
+        while(n > 0 && right!=null){
+            right = right.next;
+            n -= 1;
+        }
+        /*
+            after right and left are at correct positions
+            (right at nth node from the start & left at the dummy)
+            we iterate one step at a time
+        */
+        while(right != null){
+            right = right.next;
+            left = left.next;
+        }
+
+        //delete
+        //connect the left's next pointer to the next node of the node we want to delete
+        if(left.next != null){
+            left.next = left.next.next;
+        }
+        //return the deleted value
+        return left.value;
+    }
+
+
     //delete the first node
     //make the head point to the head.next node [head --> head.next]
     //and the previous node will automatically be removed

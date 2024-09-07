@@ -42,6 +42,8 @@ public class deleteDuplicates {
         tail.next = null;
     }
 
+
+
     public void print(){
         Node temp = head;
         while(temp != null){
@@ -60,7 +62,6 @@ public class deleteDuplicates {
         list.add(1);
         list.print();
         System.out.println("\nAfter Removing duplicate values-->");
-        list.DeleteDuplicates();
         list.print();
     }
     private class Node{

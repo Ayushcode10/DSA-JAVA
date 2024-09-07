@@ -1,5 +1,7 @@
 package com.LinkedList;
 
+import javax.sound.sampled.Line;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -47,12 +49,22 @@ public class Main {
 //        list.reverse();
 //        list.display();
 
-        Circular ll = new Circular();
-        ll.add(1);
-        ll.add(2);
-        ll.add(3);
-        ll.add(4);
-        ll.delete(3);
-        ll.print();
+        LinkedList l = new LinkedList();
+        l.addFirst(1);
+        l.addLast(2);
+        l.addLast(3);
+        l.addLast(4);
+        l.addLast(5);
+        l.display();
+        System.out.println();
+        System.out.println(l.removeNthFromEnd(3));
+        l.display();
+//        Circular ll = new Circular();
+//        ll.add(1);
+//        ll.add(2);
+//        ll.add(3);
+//        ll.add(4);
+//        ll.delete(3);
+//        ll.print();
     }
 }
