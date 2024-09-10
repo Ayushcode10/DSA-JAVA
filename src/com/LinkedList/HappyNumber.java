@@ -25,6 +25,8 @@ public class HappyNumber {
     }
 
 
+
+
     //normal findsquare method, which finds square of the digits of the given no. and adds it
     private int findSquare(int num){
         int ans = 0;
