@@ -260,7 +260,6 @@ public class LinkedList {
         }
 
         Node curr = head;
-        Node next = curr.next;
         Node prev = null;
 
         for (int i = 0; curr!= null && i <left-1 ; i++) {
@@ -271,7 +270,22 @@ public class LinkedList {
         Node newEnd = curr;
 
         //rev between left and right
-
+        Node next = curr.next;
+        for (int i = 0; curr!=null && i < right-left+1; i++) {
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+                if(next!=null) {
+                    next = next.next;
+                }
+        }
+        if(last != null){
+            last.next = prev;
+        }
+        else {
+            head = prev;
+        }
+        newEnd.next = curr;
         return head;
     }
     public void display(){
