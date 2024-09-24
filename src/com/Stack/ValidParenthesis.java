@@ -32,9 +32,8 @@ public class ValidParenthesis {
         }
         return st.isEmpty();
     }
-
     public static void main(String[] args) {
         ValidParenthesis s = new ValidParenthesis();
-        System.out.println(s.isValid("[{]}"));
+        System.out.println(s.isValid("())"));
     }
 }

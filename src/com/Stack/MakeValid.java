@@ -20,6 +20,7 @@ public class MakeValid {
                 if(!st.isEmpty() && st.peek() == '('){
                     //if present, we simply pop the item
                     st.pop();
+                    st.pop();
                 }
                 else{
                     //if not present we push the closing bracket
@@ -34,7 +35,7 @@ public class MakeValid {
         }
         //after the traversal we simply return the size of the stack
         //as it contains not complete brackets
-        return st.size();
+        return st.size()*2;
     }
 
     public int makeValidII(String s){
@@ -71,7 +72,7 @@ public class MakeValid {
     public static void main(String[] args) {
         MakeValid s = new MakeValid();
 
-        System.out.println(s.makeValidII("((("));
+        System.out.println(s.minAddToMakeValid("(()))"));
     }
 
 }
