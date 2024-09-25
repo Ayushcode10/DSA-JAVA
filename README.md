@@ -15,14 +15,28 @@ This repository documents my journey of learning Data Structures and Algorithms 
     - [Linear Search](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/LinearSearch)
     - [Binary Search](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/BinarySearch)
     - [Sorting algorithms](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Sorting)
+
+- **Maths:** 
     - [Bitwise operators](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Bitwise)
     - [Maths](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Maths)
+
+- **Miscellaneous:** 
     - [Pattern Questions](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Patterns)
     - [Strings](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Strings)
     - [Extra questions](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/javvaQues)
+
+- **OOPS:** 
     - [Object-Oriented Programming](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/OOPS)
+
+- **Linked Lists:** 
     - [Linked List](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/LinkedList)
+
+- **Stacks:** 
     - [Stacks](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Stack)
+
+- **Queues:** 
+    - [Queue](https://github.com/Ayushcode10/DSA-JAVA/tree/main/src/com/Queue)
+
 
 
 ### Progress Tracker
