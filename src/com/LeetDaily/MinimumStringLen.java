@@ -2,15 +2,16 @@ package com.LeetDaily;
 
 import java.util.*;
 
+//2696. Minimum String Length After Removing Substrings
 public class MinimumStringLen {
 
     public static void main(String[] args) {
         String s = "ABFCACDB";
-        System.out.println(minLen(s));
+        System.out.println(minLen2(s));
     }
 
     public static int minLen(String s){
-        //use StringBuiilder to deal with the given String
+        //use StringBuilder to deal with the given String
         StringBuilder sb = new StringBuilder(s);
         int i = 0;
         //traverse the entire String
@@ -37,5 +38,21 @@ public class MinimumStringLen {
         }
         //return the updated length of the String
         return sb.length();
+    }
+
+    public static int minLen2(String s){
+        char[] stack = new char[s.length()+1];
+        int last = -1;
+        for (char c : s.toCharArray()) {
+            if (last > -1 && (c == 'B' && stack[last] == 'A' ||
+                    c == 'D' && stack[last] == 'C'))
+            {
+                last--;
+            } else {
+                last++;
+                stack[last] = c;
+            }
+        }
+        return last+1;
     }
 }

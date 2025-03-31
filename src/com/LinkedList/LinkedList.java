@@ -1,6 +1,6 @@
 package com.LinkedList;
 
-public class LinkedList {
+public class    LinkedList {
 
     //pointers
     private Node head;
